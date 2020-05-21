@@ -1,11 +1,8 @@
 ![](ssUseState1.png)
 
-React hooks as a way of being able to make our website interactive and actually have changeable state. 
-
-We're relying on the ReactDOM to actually render each of these elements onto the screen.
-
-So if we wanted to update what's on screen we actually have to re-render all of this. In the example "reRenderingReactDOM.js" --see it in src file uploaded,  we have to re-render ReacTDOM to be able to see the changed elements in the App! However, it is quite cumbersome process. Thus, react has hooks to solve this cumbersomeness! 
-In the react's documentation hoosks are described as functions that let you “hook into” React state and lifecycle features from function components. Hooks don't work inside classes — they let you use React without classes. <a href="https://reactjs.org/docs/hooks-overview.html">click here to see documentation</a>
+<span>React hooks as a way of being able to make our website interactive and actually have changeable state. We're relying on the ReactDOM to actually render each of these elements onto the screen.
+So,if we wanted to update what's on screen we actually have to re-render all of this. In the example "reRenderingReactDOM.js" --see it in src file uploaded,  we have to re-render ReacTDOM to be able to see the changed elements in the App! However, it is quite cumbersome process. Thus, react has hooks to solve this cumbersomeness! 
+In the react's documentation hoosks are described as functions that let you “hook into” React state and lifecycle features from function components. Hooks don't work inside classes — they let you use React without classes. <a href="https://reactjs.org/docs/hooks-overview.html"  target="_blank">click here to see documentation</a> </span>
 
 
 
