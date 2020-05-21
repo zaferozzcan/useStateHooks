@@ -1,3 +1,9 @@
+
+##UI
+![](ssUseState.png)
+
+we can achieve the goal of increasing the count by re-rendering React in the code.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
