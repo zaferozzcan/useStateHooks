@@ -1,23 +1,22 @@
-import React from "react";
-import ReactDOM from "react-dom";
-var count = 0;
+import React, { useState } from "react";
+
 function App() {
+  const [count, setCount] = useState(0);
+
   function increase() {
-    count++;
-    ReactDOM.render(
-      <div className="container">
-        <h1>{count}</h1>
-        <button onClick={increase}>+</button>
-      </div>,
-      document.getElementById("root")
-    );
+    setCount(count + 1);
   }
-  return ReactDOM.render(
+
+  function decrease() {
+    setCount(count - 1);
+  }
+
+  return (
     <div className="container">
       <h1>{count}</h1>
+      <button onClick={decrease}>-</button>
       <button onClick={increase}>+</button>
-    </div>,
-    document.getElementById("root")
+    </div>
   );
 }
 
